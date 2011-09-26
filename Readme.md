@@ -7,7 +7,10 @@ With identify.js you can turn the output of ImageMagick's `identify` command int
 ## Example
 
     var Identify = require("identify")
-    Identify.parseFile('test/fixtures/google.png', function(err, json) {
+
+    // identify file and transform into json:
+    // you can pass options, if you want to
+    Identify.parseFile('test/fixtures/google.png', [, options], function(err, json) {
       console.log(json)
       /*
         {
@@ -20,10 +23,9 @@ With identify.js you can turn the output of ImageMagick's `identify` command int
       */
     })
 
+    // tansform an identify-output string into json
     var identifyOutput = 'firstline\n  Format: PNG (Portable Network Graphics)\n'
-      , output = Identify.parse(identifyOutput)
-
-    console.log(output)
+    console.log(Identify.parse(identifyOutput))
     /*
       {
         Format: 'PNG (Portable Network Graphics)'
