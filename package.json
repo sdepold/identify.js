@@ -8,7 +8,7 @@
     "url": "git://github.com/dawanda/identify.js.git"
   },
   "engines": {
-    "node": "~v0.4.8"
+    "node": ">=v0.4.0"
   },
   "dependencies": {},
   "devDependencies": {}
