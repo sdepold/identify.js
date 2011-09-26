@@ -1,0 +1,15 @@
+{
+  "author": "DaWanda GmbH <mirko@dawanda.com> (http://dawanda.com)",
+  "name": "identify.js",
+  "description": "Parse identify (image-magick) output into JS object.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dawanda/identify.js.git"
+  },
+  "engines": {
+    "node": "~v0.4.8"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
