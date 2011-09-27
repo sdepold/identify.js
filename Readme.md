@@ -35,3 +35,9 @@ With identify.js you can turn the output of ImageMagick's `identify` command int
 ## License
 
 Released under MIT-License!
+
+# Authors/Contributors
+
+- DaWanda GmbH
+- Sascha Depold ([Twitter](http://twitter.com/sdepold) | [Github](http://github.com/sdepold) | [Website](http://depold.com))
+- Michael Grosser ([Twitter](http://twitter.com/grosser) | [Github](http://github.com/grosser) | [Website](http://grosser.it))
